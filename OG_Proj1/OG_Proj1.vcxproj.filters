@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Cvoid_Engine">
+      <UniqueIdentifier>{461910dc-c884-45ef-9418-db0d9dd1ea8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cvoid_Engine\Class - 1">
+      <UniqueIdentifier>{f55839eb-3691-459e-b86f-6ebead0f0833}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cvoid_Engine\Class - 2">
+      <UniqueIdentifier>{735f4c87-d9f2-406d-9c74-93bef4b73692}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cvoid_Engine\Class - 3">
+      <UniqueIdentifier>{4f2ca9f7-4865-4f08-8159-8bd9079fcf4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game - Main">
+      <UniqueIdentifier>{9f3b63a7-b8f7-4170-8f4b-f4302bb4b57b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game - Main\Structured">
+      <UniqueIdentifier>{9cbb77f1-8d4c-40be-94ab-8d47b3f80355}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cvoid_Engine\Class - 1\Config">
+      <UniqueIdentifier>{5404950c-72c5-40ab-ae29-f1a0e6a17efa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cvoid_Engine\Class - 3\C3 - Math">
+      <UniqueIdentifier>{1d1b49ac-08ea-4b4f-9e4a-a3bb271db65a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cvoid_Engine\Class - 3\C3 - Physics">
+      <UniqueIdentifier>{78ddb2bb-8c88-4a2d-b556-b0b3f07c55d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cvoid_Engine\Class - 2\C2 - Paint">
+      <UniqueIdentifier>{84125c29-2e42-4350-9ca9-67870038503c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cvoid_Engine\Class - 2\C2 - Paint\List">
+      <UniqueIdentifier>{26761683-3447-421a-8e49-861a6e140977}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cvoid_Engine\Class - 2\C2 - Paint\Script">
+      <UniqueIdentifier>{9a2fddaf-3b5e-48d8-84f3-e0cc38455935}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cvoid_Engine\Class - 2\C2 - Paint\Functions">
+      <UniqueIdentifier>{eca66fd0-7f4f-47d5-b6c1-64b9d5cd42cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cvoid_Engine\Class - 3\Base">
+      <UniqueIdentifier>{af2a322e-2385-4522-a1e7-d7660b503f5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cvoid_Engine\Class - 2\C2 - Animation">
+      <UniqueIdentifier>{0c356d6b-da36-4c8f-a751-defbab9c280c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WndMain.cpp">
+      <Filter>Game - Main\Structured</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_Interfance.cpp">
+      <Filter>Cvoid_Engine\Class - 1</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Config.hpp">
+      <Filter>Cvoid_Engine\Class - 1\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="Basic_Paint.hpp">
+      <Filter>Cvoid_Engine\Class - 2\C2 - Paint\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjType.h">
+      <Filter>Cvoid_Engine\Class - 2\C2 - Paint\List</Filter>
+    </ClInclude>
+    <ClInclude Include="Paint_Script.h">
+      <Filter>Cvoid_Engine\Class - 2\C2 - Paint\Script</Filter>
+    </ClInclude>
+    <ClInclude Include="Viewer.h">
+      <Filter>Cvoid_Engine\Class - 2\C2 - Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="GLBase.hpp">
+      <Filter>Cvoid_Engine\Class - 3\Base</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
